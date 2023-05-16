@@ -1,0 +1,56 @@
+body {
+  background-image: url("../images/main-bg.jpg");
+  background-size: cover;
+}
+.outer_main {
+  margin: 20px;
+}
+.logo_box {
+  margin-left: 20px;
+  background-color: white;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+  width: 210px;
+  height: 70px;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  font-size: 30px;
+}
+li {
+  display: inline-block;
+  margin: 13px;
+}
+li:active {
+  color: blue;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+h1 {
+  text-align: center;
+  margin: 80px;
+  font-size: 80px;
+  font-family: "돋움체", "굴림체";
+}
+h2 {
+  text-align: center;
+}
+.footer_box {
+  justify-content: center;
+  display: flex;
+}
+.menu_button {
+  margin: 50px;
+  padding: 20px;
+  background-color: #0bd;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  width: 120px;
+  font-weight: 600;
+  border-radius: 10px;
+}
