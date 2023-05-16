@@ -1,0 +1,15 @@
+/* direction 속성 */
+#p1 { direction: ltr;}
+#p2 { direction: rtl;}
+
+/* text-align 속성 */
+#p3 { text-align: left;}
+#p4 { text-align: right;}
+#p5 { text-align: center;}
+#p6 { text-align: justify;}
+
+/* line-height 속성 */
+#p7 { line-height: normal;}
+#p8 { line-height: 30px;}
+#p9 { line-height: 1.5em;}
+#p10 { line-height: 200%;}
