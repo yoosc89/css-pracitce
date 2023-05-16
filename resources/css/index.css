@@ -1,9 +1,17 @@
-body {
+.main_body {
   background-image: url("../images/main-bg.jpg");
   background-size: cover;
+  background-position: bottom;
+  min-height: 100vh;
+}
+.menu_body {
+  background-image: url(../images/menu-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 .outer_main {
-  margin: 20px;
+  margin: 30px 60px;
 }
 .logo_box {
   margin-left: 20px;
@@ -16,14 +24,18 @@ body {
 }
 ul {
   list-style-type: none;
-  font-size: 30px;
+  font-size: 1.25em;
 }
 li {
   display: inline-block;
-  margin: 13px;
+  padding: 13px;
 }
-li:active {
-  color: blue;
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: cyan;
 }
 header {
   display: flex;
@@ -33,10 +45,11 @@ header {
 h1 {
   text-align: center;
   margin: 80px;
-  font-size: 80px;
-  font-family: "돋움체", "굴림체";
+  font-size: 4.5em;
+  font-family: "Edu VIC WA NT Beginner", cursive;
 }
-h2 {
+.subtext {
+  font-size: 1.25em;
   text-align: center;
 }
 .footer_box {
@@ -44,7 +57,7 @@ h2 {
   display: flex;
 }
 .menu_button {
-  margin: 50px;
+  margin: 80px;
   padding: 20px;
   background-color: #0bd;
   color: white;
@@ -53,4 +66,20 @@ h2 {
   width: 120px;
   font-weight: 600;
   border-radius: 10px;
+}
+.contact_box {
+  display: grid;
+  grid-template-columns: auto 500px auto;
+}
+.menu_headline {
+  margin: 20px;
+  color: #432;
+  font-size: 6em;
+  font-weight: 600;
+}
+.menu_contacts {
+  color: #432;
+  font-weight: 700;
+  font-size: large;
+  line-height: 2em;
 }
